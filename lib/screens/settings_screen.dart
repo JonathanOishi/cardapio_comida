@@ -59,7 +59,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             child: ListView(
               children: [
                 _createSwitch(
-                  'Sem Glutén',
+                  'Sem Glúten',
                   'Só exibe refeições sem glúten!',
                   settings!.isGlutenFree,
                   (value) => setState(() => settings!.isGlutenFree = value),
